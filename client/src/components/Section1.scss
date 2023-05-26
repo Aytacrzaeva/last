@@ -1,0 +1,83 @@
+.section1 {
+  padding-top: 260px;
+  width: 100%;
+  height: 100vh;
+  background-image: url(https://preview.colorlib.com/theme/drimo/drimo/img/banner/server-banner.jpg.webp);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  font-family: "Montserrat", sans-serif;
+
+  &__top {
+    width: 500px;
+    height: 290px;
+    background-color: #fc6428;
+    clip-path: polygon(
+      0% 0%,
+      100% 0%,
+      100% 28%,
+      54% 28%,
+      51% 38%,
+      48% 28%,
+      0 27%
+    );
+    text-align: center;
+    font-size: 38px;
+    color: white;
+    position: absolute;
+    top: 130px;
+    left: 700px;
+    padding-top: 10px;
+  }
+  &__bottom {
+    padding: 0px 200px 0px 380px;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    &__left {
+      height: 500px;
+      color: white;
+      width: 740px;
+      h2 {
+        font-size: 50px;
+        margin-bottom: 20px;
+      }
+      h3 {
+        font-size: 36px;
+        font-weight: lighter;
+        margin-bottom: 20px;
+      }
+      p{
+        line-height: 27px;
+        font-size: 16px;
+        width: 730px;
+        font-weight: 400;
+        margin-bottom: 30px;
+      }
+      &__items{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: start;
+        align-items: center;
+        line-height: 40px;
+        margin-bottom: 70px;
+        &__item{
+            display: flex;
+            align-items: center;
+            width: 35%;
+            font-size: 16px;
+            font-weight: 600;
+        }
+    }
+    button{
+        padding: 12px 30px;
+        background-color: #fc6428;
+        color: white;
+        font-size: 18px;
+        border: none;
+
+    }
+    }
+  }
+}
